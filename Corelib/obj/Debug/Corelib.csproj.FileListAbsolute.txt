@@ -1,0 +1,6 @@
+C:\Users\Zynon\Desktop\Menstration\Menstration\Corelib\bin\Debug\Corelib.dll
+C:\Users\Zynon\Desktop\Menstration\Menstration\Corelib\bin\Debug\Corelib.pdb
+C:\Users\Zynon\Desktop\Menstration\Menstration\Corelib\obj\Debug\Corelib.csproj.AssemblyReference.cache
+C:\Users\Zynon\Desktop\Menstration\Menstration\Corelib\obj\Debug\Corelib.csproj.CoreCompileInputs.cache
+C:\Users\Zynon\Desktop\Menstration\Menstration\Corelib\obj\Debug\Corelib.dll
+C:\Users\Zynon\Desktop\Menstration\Menstration\Corelib\obj\Debug\Corelib.pdb
