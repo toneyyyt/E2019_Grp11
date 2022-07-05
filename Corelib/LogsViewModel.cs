@@ -18,6 +18,8 @@ namespace Corelib
 
         public string Symptoms { get; set; }
 
+        public int UserId { get; set; }
+
         public DateTime? CrDate { get; set; }
     }
 }

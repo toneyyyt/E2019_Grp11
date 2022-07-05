@@ -21,6 +21,8 @@ namespace Corelib
 
         public string DoctorRemarks { get; set; }
 
+        public int UserId { get; set; }
+
         public DateTime? CrDate { get; set; }
     }
 }

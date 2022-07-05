@@ -40,6 +40,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="MyLibrary">
+      <HintPath>..\Menstration\Components\MyLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -52,7 +55,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDb.cs" />
+    <Compile Include="Interface\ILogs.cs" />
+    <Compile Include="Interface\IMensDate.cs" />
+    <Compile Include="Interface\IUserAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\LogRepository.cs" />
+    <Compile Include="Repository\MensDateRepositroy.cs" />
+    <Compile Include="Repository\UserAccountRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -63,11 +72,12 @@
       <Project>{01e42f8d-9317-414d-94e4-e73fbd9a741e}</Project>
       <Name>Business</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Corelib\Corelib.csproj">
+      <Project>{1190615F-34F8-41CF-9697-DCC82E1B9F96}</Project>
+      <Name>Corelib</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interface\" />
-    <Folder Include="Repository\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

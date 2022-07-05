@@ -13,3 +13,8 @@ C:\Users\Zynon\Desktop\Menstration\Menstration\ClassLibrary1\obj\Debug\Repositor
 C:\Users\Zynon\Desktop\Menstration\Menstration\ClassLibrary1\obj\Debug\Repository.csproj.CopyComplete
 C:\Users\Zynon\Desktop\Menstration\Menstration\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\Users\Zynon\Desktop\Menstration\Menstration\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Zynon\Desktop\Menstration\Menstration\ClassLibrary1\bin\Debug\MyLibrary.dll
+C:\Users\Zynon\Desktop\Menstration\Menstration\ClassLibrary1\bin\Debug\System.Web.Mvc.dll
+C:\Users\Zynon\Desktop\Menstration\Menstration\ClassLibrary1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Zynon\Desktop\Menstration\Menstration\ClassLibrary1\bin\Debug\Corelib.dll
+C:\Users\Zynon\Desktop\Menstration\Menstration\ClassLibrary1\bin\Debug\Corelib.pdb
